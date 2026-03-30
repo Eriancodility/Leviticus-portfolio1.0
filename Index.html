@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Portfolio</title>
+    <link rel="stylesheet" href="Home/Style.css">
+</head>
+<body>
+
+<header>
+    <img src="Home/Images/photo.jpeg" class="logo">
+    <h2>Jomo Kenyatta University TVET</h2>
+</header>
+
+<section class="home">
+    <h1>LEVITICUS DAVID NJORA</h1>
+    <p>Computer Science Student – Level 6</p>
+</section>
+
+<section class="bio">
+    <h2>My Bio</h2>
+    <p>
+        My name is <b>LEVITICUS DAVID NJORA</b>, a Computer Science Level 6 student at 
+        Jomo Kenyatta University TVET.
+    </p>
+    <p>
+        Registration Number: <b>TDC -113-C002-0004/2024</b>
+    </p>
+    <p>
+        I am passionate about web development, databases, operating systems, and 
+        computer architecture. I enjoy building simple and practical systems that 
+        solve real problems and improve my programming skills.
+    </p>
+</section>
+
+<section class="exams">
+    <h2>Upload Exam Papers</h2>
+
+    <div class="upload">
+        Web Development: <input type="file" onchange="showFile(this,'file1')">
+        <p id="file1"></p>
+    </div>
+
+    <div class="upload">
+        Database Management: <input type="file" onchange="showFile(this,'file2')">
+        <p id="file2"></p>
+    </div>
+
+    <div class="upload">
+        Operating Systems: <input type="file" onchange="showFile(this,'file3')">
+        <p id="file3"></p>
+    </div>
+
+    <div class="upload">
+        Computer Architecture: <input type="file" onchange="showFile(this,'file4')">
+        <p id="file4"></p>
+    </div>
+</section>
+
+<section class="evidence">
+    <h2>Evidence from VS Code and Cisco certificate</h2>
+
+    <div class="media">
+        <h3>Screenshot Evidence</h3>
+        <img src="Home/Images/Evidence.png" alt="VS Code Screenshot" class="evidence-img">
+    </div>
+
+    <div class="media">
+        <h3>CISCO CERTIFICATE</h3>
+        <img src="Home/Images/CISCO.png" alt="VS Code Screenshot" class="evidence-img">
+    </div>
+
+    <div class="media">
+        <h3>Video Evidence</h3>
+        <video controls class="evidence-video">
+            <source src="Home/Images/evidence.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>
+
+<footer>
+    <p>LEVITICUS DAVID NJORA</p>
+    <p>WhatsApp: 0797381722</p>
+</footer>
+
+<script src="Home/Script.js"></script>
+</body>
+</html>
